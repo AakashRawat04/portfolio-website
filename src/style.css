@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 .blackcircle{
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     margin-right: -50%;
-     transform: translate(-50%, -50%);
+     position: fixed;
+     top: 38%;
+     left: 44%;
      background-color: black;
      height: 250px;
      width: 250px;
      border-radius: 50%;
+     display: flex;
+     align-items: center; 
+     justify-content: center;
 }
 
-#introhello{
-     position: relative;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
+#introtextHeythere{
+     position: absolute;
+     top: 47%;
+     left: 46.3%;
      font-family: 'Open Sans', sans-serif;
+     color: white;
 }
