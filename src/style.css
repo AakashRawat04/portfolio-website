@@ -37,3 +37,11 @@
      font-family: 'Open Sans', sans-serif;
      color: white;
 }
+
+#downarrow{
+     position: fixed;
+     left: 48.5%;
+     bottom: 10px;
+     height: 70px;
+     width: 70px;
+}

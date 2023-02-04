@@ -2,6 +2,7 @@ import { createRoot } from "react-dom/client";
 import BlackCircle from "./BlackCircle";
 import Demotext from "./Demotext";
 import IntroText from "./IntroText";
+import DownArrow from "./DownArrow";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <BlackCircle/>
       <IntroText/>
       <Demotext/>
+      <DownArrow/>
     </div>
   );
 };

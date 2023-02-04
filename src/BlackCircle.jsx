@@ -15,7 +15,7 @@ const BlackCircle = () => {
                start: "center 49%",
                end: "+=1000",
                scrub: 0.8,
-               markers: true
+               markers: false
           }, scale: 10} )
 
 	}, []); 
