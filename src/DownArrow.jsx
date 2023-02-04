@@ -16,8 +16,8 @@ const DownArrow = () => {
                start: "top 90%",
                toggleActions:"restart pause reverse pause",
                scrub: true,
-               markers: true
-          }, opacity: 0, duration: 5} )
+               markers: false
+          }, opacity: 0, } )
 
 	}, []); 
 
