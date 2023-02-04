@@ -1,8 +1,7 @@
 const IntroText =  () => {
      return(
-          <div>
+          <div id="introtextcontainer">
           <h1 id="introtextHeythere">Hey There!</h1>
-          
           </div>
      )
 }

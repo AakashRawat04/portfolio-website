@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
 import BlackCircle from "./BlackCircle";
-import IntroText from "./IntroText";
 import Demotext from "./Demotext";
+import IntroText from "./IntroText";
 
 const App = () => {
   return (

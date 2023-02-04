@@ -2,8 +2,10 @@
 
 .blackcircle{
      position: fixed;
-     top: 38%;
-     left: 44%;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
      background-color: black;
      height: 250px;
      width: 250px;
@@ -13,10 +15,25 @@
      justify-content: center;
 }
 
+#introtextcontainer{
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+     height: 250px;
+     width: 250px;
+     display: flex;
+     align-items: center; 
+     justify-content: center;
+}
+
 #introtextHeythere{
-     position: absolute;
-     top: 47%;
-     left: 46.3%;
+     position: relative;
+     /* top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%); */
      font-family: 'Open Sans', sans-serif;
      color: white;
 }
