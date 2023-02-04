@@ -10,14 +10,13 @@ const DownArrow = () => {
      
 	useLayoutEffect(() => {
           
-          // const blackcircle = document.getElementsByClassName(".blackcircle")
           gsap.to(downarrow.current, {scrollTrigger: {
                trigger: downarrow.current,
                start: "top 90%",
                toggleActions:"restart pause reverse pause",
                scrub: true,
                markers: false
-          }, opacity: 0, } )
+          }, opacity: 0,display: "none" } )
 
 	}, []); 
 

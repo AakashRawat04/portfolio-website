@@ -26,6 +26,7 @@ const IntroText2 = () => {
           }).to(introtext2.current, {
                scale: 1.9,
                opacity: 0,
+               display:"none"
           })
 	}, []);
 	return (

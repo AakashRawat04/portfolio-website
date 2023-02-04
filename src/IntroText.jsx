@@ -5,6 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const IntroText = () => {
 	const introtext1 = useRef();
+	const introtextcontainer = useRef();
 	// const introtext2 = useRef()
 	// const introtext3 = useRef()
 	//add scrub in timeline
@@ -26,11 +27,14 @@ const IntroText = () => {
                scale: 1.7,
           }).to(introtext1.current, {
                opacity: 0,
-               delay: 2
+               delay: 2,
+               display:"none"
+          }).to(introtextcontainer.current, {
+               display:"none"
           })
 	}, []);
 	return (
-		<div id="introtextcontainer">
+		<div id="introtextcontainer" ref={introtextcontainer}>
 			<h1 id="introtext1" ref={introtext1}>
 				Hey There!
 			</h1>
