@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fira+Code&family=Open+Sans:wght@700&family=Space+Mono&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,8 +8,13 @@
      display: none;
 } */
 
+body{
+     overflow-x: hidden;
+     color: white;
+}
+
 .container{
-     height: 700vh;
+     height: 600vh;
 }
 
 .blackcircle{
@@ -62,4 +67,115 @@
      position: fixed;
      top: 300px;
      left: 46%;
+}
+
+.allpagecontainer{
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: fit-content;
+     width: 100%;
+     flex-direction: column;
+     top:200vh
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 3.5rem;
+    flex-direction: column;
+    background-color: #222020;
+
+}
+
+.home_section{
+     color: white;
+     position: relative;
+     /* font-size: 3.5rem; */
+     top: -2%;
+     left: -9%;
+}
+
+#hmni{
+     color: white;
+     font-family: 'Courier Prime', monospace;
+     font-size: 1.6rem;
+}
+#myname{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 5rem;
+}
+#lnted{
+     font-family: 'Space Mono', monospace;
+     font-size: 1.8rem;
+}
+
+#lastname{
+     color: #999999;
+}
+#hi{
+     color: #999999;
+}
+
+#myname:hover #firstname{
+     color: #999999;
+     transition: all ease-in-out 0.5s;
+}
+#myname:hover #lastname{
+     color: white;
+     transition: all ease-in-out 0.5s;
+}
+
+.title_heading{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+}
+
+.root_aboutme_section{
+     background-color: black;
+}
+
+#aboutme_icon{
+     height: 100px;
+     width: auto;
+}
+
+#aboutmetitle{
+     margin: -37px;
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+}
+
+.aboutme_section{
+     height: 55vh;
+     width: 105vh;
+     background: #151519c9;
+     position: absolute;
+     border-radius: 25px;
+     left: 28%;
+     top: 30%;
+}
+
+#aboutmebackbox_icon{
+     position: absolute;
+     left: 33px;
+     top: 14px;
+}
+
+#aboutme_desc{
+     font-size: 1.5rem;
+     padding: 20px;
+     position: relative;
+     margin: 20px;
+     font-family: 'Fira Code', monospace;
+     top: 58px;
+     left: 42px;
+     width: 15rem;
 }
