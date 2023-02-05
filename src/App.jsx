@@ -3,6 +3,7 @@ import BlackCircle from "./BlackCircle";
 import IntroText from "./IntroText";
 import DownArrow from "./DownArrow";
 import IntroText2 from "./IntroText2";
+import AllPages from "./AllPages";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <IntroText/>
       <DownArrow/>
       <IntroText2/>
+      <AllPages/>
       </div>
     </div>
   );
