@@ -25,6 +25,7 @@ const IntroText = () => {
 		}).to(introtext1.current, {
                y: -300,
                scale: 1.7,
+			ease: "power1.out"
           }).to(introtext1.current, {
                opacity: 0,
                delay: 2,
