@@ -1,22 +1,26 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useRef,useLayoutEffect } from "react";
-
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
-	const container = useRef();
-     
-	useLayoutEffect(() => {
 
-	}, []); 
-
-	return(
-          <div className="container" ref={container}>
-
-          </div>
-     )
+	return (
+		<div className="section">
+			<div className="home_section">
+                    <div id="hmni">
+                    <span id="hi">Hi</span><span>, my name is:</span>
+                    </div>
+                    <div id="myname">
+                         <span id="firstname">Aakash</span><span id="lastname"> Rawat</span>.
+                    </div>
+                    <div id="lnted">
+                    Learning new things everyday
+                    </div>
+                    
+			</div>
+		</div>
+	);
 };
 
 export default Home;
