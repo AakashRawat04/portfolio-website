@@ -4,6 +4,13 @@
 @tailwind utilities;
 
 
+/* ::-webkit-scrollbar {
+     display: none;
+} */
+
+.container{
+     height: 700vh;
+}
 
 .blackcircle{
      position: fixed;
