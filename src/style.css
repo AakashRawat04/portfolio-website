@@ -4,9 +4,9 @@
 @tailwind utilities;
 
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
      display: none;
-} */
+}
 
 body{
      overflow-x: hidden;
