@@ -24,7 +24,7 @@ const AllPages = () => {
                       trigger: container,
                       start: "top center",
                       end: "top top",
-                      toggleActions: "play pause reverse reset",
+                      scrub: 1,
                     },
                   });
              });
