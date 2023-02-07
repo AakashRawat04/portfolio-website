@@ -81,7 +81,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     font-size: 3.5rem;
     flex-direction: column;
@@ -93,7 +93,7 @@ body{
      color: white;
      position: relative;
      /* font-size: 3.5rem; */
-     top: -2%;
+     top: -17%;
      left: -9%;
 }
 
@@ -162,17 +162,76 @@ body{
 
 #aboutmebackbox_icon{
      position: absolute;
-     left: 33px;
-     top: 14px;
+    left: 17%;
+    height: 247px;
+    top: 21%;
+    width: 446px;
 }
 
 #aboutme_desc{
      font-size: 1.5rem;
-     padding: 20px;
      position: relative;
-     margin: 20px;
      font-family: 'Fira Code', monospace;
-     top: 58px;
-     left: 42px;
-     width: 15rem;
+     top: 9%;
+     left: 5%;
+     width: 62%;
+}
+
+#aboutmeleftside{
+     height: 387px;
+    width: 690px;
+    position: relative;
+    top: 14%;
+    left: -14%;
+}
+
+#aboutmeleftside:hover #aboutme_desc{
+     top: 11%;
+     transition: all ease-in 0.1s;
+}
+
+#aboutmeleftside:hover #aboutmebackbox_icon{
+     top: 15%;
+     transition: all ease-in 0.1s;
+}
+
+#aboutmerightside{
+     height: 36%;
+    width: 32%;
+    position: relative;
+    top: -21%;
+    left: 20%;
+    justify-content: center;
+    display: flex;
+}
+
+#skillbox{
+     position: absolute;
+     left: 17%;
+     height: 247px;
+     top: 21%;
+     width: 446px;
+     background-image: url(/pp_items/aboutme/aboutmeskillbox.svg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+#aboutmeskillstitle{
+     height: 17%;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 2.3rem;
+}
+
+.techstacklist{
+     font-size: 1.6rem;
+     padding: 10px;
+     font-family: 'Space Mono', monospace;
+}
+
+.techstacklist:hover {
+     color: #A9FDFF;
 }
