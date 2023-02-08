@@ -85,7 +85,7 @@ body{
     width: 100%;
     font-size: 3.5rem;
     flex-direction: column;
-    background-color: #222020;
+    background-color: black;
 
 }
 
@@ -129,10 +129,10 @@ body{
 
 .title_heading{
      display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 10%;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top: 6%;
 }
 
 .root_aboutme_section{
@@ -212,9 +212,9 @@ body{
      height: 247px;
      top: 21%;
      width: 446px;
-     background-color: rgb(106, 106, 106);
+     background-color: rgb(106 106 106 / 44%);
      border-radius: 1%;
-     box-shadow: 7px 7px rgba(131, 126, 126, 0.591);
+     box-shadow: 7px 7px rgb(78 70 70 / 34%);
      display: flex;
      align-items: center;
      flex-wrap: wrap;
@@ -234,5 +234,56 @@ body{
 }
 
 .techstacklist:hover {
+     color: #A9FDFF;
+}
+
+#work_icon{
+     height: 80px;
+     width: auto;
+}
+
+#worktitle{
+     margin: 13px;
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+}
+
+.root_works{
+     height: 64%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.work{
+     position: relative;
+     width: 31%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 3%;
+}
+
+.work_title{
+     margin-bottom: 25px;
+     font-size: 3rem;
+     color: #A9FDFF;
+     font-family: 'Open Sans', sans-serif;
+}
+
+.work_desc{
+     text-align: center;
+     background-color: gray;
+     font-family: 'Space Mono', monospace;
+     padding: 20px;
+     font-size: 1.5rem;
+     height: 80px;
+}
+
+.highlited_features{
      color: #A9FDFF;
 }

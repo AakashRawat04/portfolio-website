@@ -3,6 +3,7 @@ import Home from "./Home";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 import AboutMe from "./AboutMe";
+import Work from "./Work"
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -34,7 +35,7 @@ const AllPages = () => {
           <div className="allpagecontainer">
           <Home/>
           <AboutMe/>
-          <Home/>
+          <Work/>
           </div>
      )
 }
