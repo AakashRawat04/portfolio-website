@@ -162,10 +162,11 @@ body{
 
 #aboutmebackbox_icon{
      position: absolute;
-    left: 17%;
-    height: 247px;
-    top: 21%;
-    width: 446px;
+     left: 17%;
+     height: 216px;
+     top: 21%;
+     width: 418px;
+     background-color: #80808070;
 }
 
 #aboutme_desc{
@@ -211,9 +212,9 @@ body{
      height: 247px;
      top: 21%;
      width: 446px;
-     background-image: url(/pp_items/aboutme/aboutmeskillbox.svg);
-     background-repeat: no-repeat;
-     background-size: cover;
+     background-color: rgb(106, 106, 106);
+     border-radius: 1%;
+     box-shadow: 7px 7px rgba(131, 126, 126, 0.591);
      display: flex;
      align-items: center;
      flex-wrap: wrap;

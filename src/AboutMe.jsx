@@ -2,7 +2,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
 import aboutmepersonlogo from "./pp_items/aboutme/aboutmepersonlogo.svg"
-import aboutmebackbox from "./pp_items/aboutme/grayrectanglebox.svg"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -27,7 +26,8 @@ const AboutMe = () => {
                </div>
 
                <div id="aboutmeleftside">
-                    <img src={aboutmebackbox} alt="aboutmebackbox_icon" id="aboutmebackbox_icon"></img>
+                    {/* <img src={aboutmebackbox} alt="aboutmebackbox_icon" id="aboutmebackbox_icon"></img> */}
+                    <div id="aboutmebackbox_icon"></div>
                     <div id="aboutme_desc">
                          I&apos;m a Full Stack Web Developer building Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Work section.
                     </div>                    
