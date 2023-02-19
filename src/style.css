@@ -290,7 +290,7 @@ body{
 
 .overlay{
      height: 400vh;
-     width: 100vw;
+     /* width: 100vw; */
      position: absolute;
      top: 0;
 }
@@ -321,6 +321,6 @@ body{
     flex-direction: column;
 }
 
-.lefticons > img{
+.lefticons > a > img{
      width: 5.3%;
 }
