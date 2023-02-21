@@ -288,26 +288,28 @@ body{
      color: #A9FDFF;
 }
 
-.overlay{
+.overlay_left{
      height: 400vh;
-     /* width: 100vw; */
+     width: 7vw;
      position: absolute;
      top: 0;
+     left: 3%;
 }
 
 #hexalogo{
      position: sticky;
      top: 5%;
-     left: 2%;
-     height: 2.5%;
-     width: auto;
+     /* left: 28%; */
+     margin-left: -7%;
+     height: 1.9%;
+     width: 85.9%;
      
 }
 
 #lefticonbar{
      position: sticky;
      top: 84%;
-     left: 4%;
+     left: 5.2%;
      height: 4%;
      width: 10px;
      background-color: gray;
@@ -322,5 +324,5 @@ body{
 }
 
 .lefticons > a > img{
-     width: 5.3%;
+     width: 70%;
 }
