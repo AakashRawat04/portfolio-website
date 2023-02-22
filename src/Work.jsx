@@ -5,7 +5,7 @@ const AboutMe = () => {
 
 	return (
           
-		<div className="section">
+		<div className="section work_root">
                <div className="title_heading">
                     <img src={worklogo} alt="work_icon" id="work_icon"></img><span id="worktitle"> Work</span>
                </div>

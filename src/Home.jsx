@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Home = () => {
 
 	return (
-		<div className="section">
+		<div className="section home_section_nav">
 			<div className="home_section">
                     <div id="hmni">
                     <span id="hi">Hi</span><span>, my name is:</span>

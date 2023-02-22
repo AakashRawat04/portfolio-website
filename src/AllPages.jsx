@@ -5,6 +5,7 @@ import { useLayoutEffect } from "react";
 import AboutMe from "./AboutMe";
 import Work from "./Work";
 import Overlay_left from "./Overlay_left"
+import Overlay_right from "./Overlay_right";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -40,7 +41,7 @@ const AllPages = () => {
                <AboutMe/>
                <Work/>
                <Overlay_left/>
-               
+               <Overlay_right/>
           </div>
      )
 }

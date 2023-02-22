@@ -8,6 +8,7 @@
 body{
      overflow-x: hidden;
      color: white;
+     margin: 0;
 }
 
 .container{
@@ -250,12 +251,12 @@ body{
 
 .root_works{
      height: 64%;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+     width: 70%;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
 }
 
 .work{
@@ -279,9 +280,9 @@ body{
      text-align: center;
      background-color: gray;
      font-family: 'Space Mono', monospace;
-     padding: 20px;
+     padding: 22px;
      font-size: 1.5rem;
-     height: 80px;
+     height: 100px;
 }
 
 .highlited_features{
@@ -325,4 +326,32 @@ body{
 
 .lefticons > a > img{
      width: 70%;
+}
+
+.overlay_right{
+     height: 400vh;
+     width: 4vw;
+     position: absolute;
+     top: 0;
+     right: 1%;
+}
+
+.right_nav{
+     top: 40%;
+     position: sticky;
+     height: 6%;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 20%;
+}
+
+.nav_square{
+     height: 15px;
+     background-color: gray;
+     width: 15px;
+     transform: rotate(44deg);
+     margin: 20%;
+     position: relative;
 }

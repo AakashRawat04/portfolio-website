@@ -2,6 +2,10 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 import hexalogo from "./pp_items/hexalogo.svg";
+import githublogo from "./pp_items/lefticons/githublogo.svg"
+import linkedinlogo from "./pp_items/lefticons/linkedinlogo.svg"
+import twitterlogo from "./pp_items/lefticons/twitterlogo.svg"
+import instagramlogo from "./pp_items/lefticons/instagramlogo.svg"
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
@@ -9,7 +13,7 @@ const Home = () => {
 		gsap.from("#hexalogo", {
 			opacity: 0,
 			scrollTrigger: {
-				trigger: ".overlay_left",
+				trigger: ".allpagecontainer",
 				start: "top 40%",
 				end: "top top",
 				scrub: 0.7,
@@ -19,7 +23,7 @@ const Home = () => {
 		gsap.from([".lefticons", "#lefticonbar"], {
 			opacity: 0,
 			scrollTrigger: {
-				trigger: ".overlay_left",
+				trigger: ".allpagecontainer",
 				start: "top 10%",
 				end: "top top",
 				scrub: 0.5,
@@ -38,20 +42,20 @@ const Home = () => {
 
 			<div className="lefticons">
 				<a href={githublink} target="_blank" rel="noreferrer">
-					<img src="./pp_items/lefticons/githublogo.svg" alt="lefticons"></img>
+					<img src={githublogo} alt="lefticons"></img>
 				</a>
 				<a href={linkedinlink} target="_blank" rel="noreferrer">
 					<img
-						src="./pp_items/lefticons/linkedinlogo.svg"
+						src={linkedinlogo}
 						alt="lefticons"
 					></img>
 				</a>
 				<a href={twitterlink} target="_blank" rel="noreferrer">
-					<img src="./pp_items/lefticons/twitterlogo.svg" alt="lefticons"></img>
+					<img src={twitterlogo} alt="lefticons"></img>
 				</a>
 				<a href={instagramlink} target="_blank" rel="noreferrer">
 					<img
-						src="./pp_items/lefticons/instagramlogo.svg"
+						src={instagramlogo}
 						alt="lefticons"
 					></img>
 				</a>

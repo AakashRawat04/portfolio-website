@@ -7,6 +7,7 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "dev": "vite",
+    "dev_host": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
