@@ -272,13 +272,17 @@ body{
 .work_title{
      margin-bottom: 25px;
      font-size: 3rem;
-     color: #A9FDFF;
+     color: white;
      font-family: 'Open Sans', sans-serif;
+}
+
+.work_title:hover{
+     color: rgb(169, 169, 169);
 }
 
 .work_desc{
      text-align: center;
-     background-color: gray;
+     background-color: #303030;
      font-family: 'Space Mono', monospace;
      padding: 22px;
      font-size: 1.5rem;
